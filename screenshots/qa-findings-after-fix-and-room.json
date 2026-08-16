@@ -1,0 +1,82 @@
+[
+  {
+    "id": "F1",
+    "label": "transparent -> LIGHT",
+    "value": "#b2f2bb"
+  },
+  {
+    "id": "F2",
+    "label": "transparent -> DARK ",
+    "value": "#043b0c"
+  },
+  {
+    "id": "F3",
+    "label": "dark now differs from light?",
+    "value": "YES - fixed"
+  },
+  {
+    "id": "F4",
+    "label": "painted colour (no theme) unchanged?",
+    "value": "yes #b2f2bb"
+  },
+  {
+    "id": "F5",
+    "label": "hex baked into the DARK cursor SVG",
+    "value": "#043b0c"
+  },
+  {
+    "id": "R1",
+    "label": "load + settle (ms)",
+    "value": 15502
+  },
+  {
+    "id": "R2",
+    "label": "tab title",
+    "value": "Excalidraw Whiteboard"
+  },
+  {
+    "id": "R3",
+    "label": "canvas count",
+    "value": 2
+  },
+  {
+    "id": "R4",
+    "label": "zoom indicator",
+    "value": "100%"
+  },
+  {
+    "id": "R5",
+    "label": "collaborator avatars",
+    "value": 1
+  },
+  {
+    "id": "R6",
+    "label": "encryption badge present",
+    "value": true
+  },
+  {
+    "id": "R7",
+    "label": "non-blank pixel ratio on join",
+    "value": "2.2% inked"
+  },
+  {
+    "id": "R8",
+    "label": "zoom indicator after shift+1",
+    "value": "33%"
+  },
+  {
+    "id": "R9",
+    "label": "non-blank pixel ratio after fit",
+    "value": "2.3% inked"
+  },
+  {
+    "id": "R10",
+    "label": "canvas tabIndex in room",
+    "value": "-1,-1"
+  },
+  {
+    "id": "R11",
+    "label": "errors during room session",
+    "value": "none"
+  }
+]

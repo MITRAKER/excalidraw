@@ -1,0 +1,67 @@
+[
+  {
+    "id": "W1",
+    "label": "setViewport w/ scroll lock",
+    "value": "ok"
+  },
+  {
+    "id": "W2",
+    "label": "scrollConstraints",
+    "value": "{\"x\":200,\"y\":200,\"width\":1100,\"height\":750,\"lockScroll\":true,\"lockZoom\":true,\"zoom\":1,\"overscroll\":50}"
+  },
+  {
+    "id": "W3",
+    "label": "scroll before / overscrolled / settled",
+    "value": "-50,-125 -> -57,-132 -> -50,-125"
+  },
+  {
+    "id": "W4",
+    "label": "max overshoot vs overscroll:50",
+    "value": 7
+  },
+  {
+    "id": "W5",
+    "label": "rubberband snapped back?",
+    "value": "YES"
+  },
+  {
+    "id": "W6",
+    "label": "zoom out x6 under lockZoom",
+    "value": 1
+  },
+  {
+    "id": "M0",
+    "label": "API present",
+    "value": "function"
+  },
+  {
+    "id": "M1",
+    "label": "insert result",
+    "value": "inserted"
+  },
+  {
+    "id": "M2",
+    "label": "resulting order",
+    "value": "a0:rectangle  a1:text(bound)"
+  },
+  {
+    "id": "M3",
+    "label": "bound text after its container?",
+    "value": "yes - text on top (correct)"
+  },
+  {
+    "id": "M4",
+    "label": "container.boundElements rewired to new text id?",
+    "value": "yes"
+  },
+  {
+    "id": "M5",
+    "label": "text.containerId points at the new container?",
+    "value": "yes"
+  },
+  {
+    "id": "Z",
+    "label": "page errors",
+    "value": "none"
+  }
+]

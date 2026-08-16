@@ -1,0 +1,72 @@
+[
+  {
+    "id": "V0",
+    "label": "API surface",
+    "value": "app.viewport.setViewport=function | app.viewport.constrain=function | app.scrollToContent=undefined"
+  },
+  {
+    "id": "V1",
+    "label": "elements in scene",
+    "value": 3
+  },
+  {
+    "id": "V2",
+    "label": "setViewport({lock}) result",
+    "value": "ok"
+  },
+  {
+    "id": "V3",
+    "label": "scrollConstraints after lock",
+    "value": "{\"x\":200,\"y\":200,\"width\":1100,\"height\":750,\"lockScroll\":false,\"lockZoom\":true,\"zoom\":1,\"overscroll\":50}"
+  },
+  {
+    "id": "V4",
+    "label": "zoom after lock",
+    "value": 1
+  },
+  {
+    "id": "V5",
+    "label": "scroll before / overscrolled / settled",
+    "value": "-50,-125 -> -1010,-1085 -> -1010,-1085"
+  },
+  {
+    "id": "V6",
+    "label": "rubberband snapped back?",
+    "value": "NO - stayed overscrolled"
+  },
+  {
+    "id": "V7",
+    "label": "zoom shift+1 under lock",
+    "value": "1 -> 1"
+  },
+  {
+    "id": "V8",
+    "label": "still inside lock box after shift+1?",
+    "value": "zoom=1 lockZoom=true constraintZoom=1"
+  },
+  {
+    "id": "V9",
+    "label": "zoom after 6x zoomOut with lockZoom:true",
+    "value": 1
+  },
+  {
+    "id": "L1",
+    "label": "seed",
+    "value": "seeded text-before-container"
+  },
+  {
+    "id": "L2",
+    "label": "scene order (index -> type/id)",
+    "value": "a0:text(bound)  a1:rectangle"
+  },
+  {
+    "id": "L3",
+    "label": "bound text rendered after its container?",
+    "value": "NO - text at 0, container at 1"
+  },
+  {
+    "id": "Z",
+    "label": "page errors across the run",
+    "value": "none"
+  }
+]
