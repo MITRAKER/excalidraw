@@ -49,6 +49,10 @@ Viewport lock (setViewport lock.scroll) does not constrain pointer-drag panning
 > out. No snap-back occurs. In the attached recording the target rectangle leaves the screen entirely
 > and stays gone for 8+ seconds.
 >
+> <!-- OPTIONAL SECTION — delete from here to "Introduced by #11554" for a pure
+>      repro-only report. It adds a root-cause hypothesis and the coverage gap;
+>      it is not a fix and does not pre-empt the maintainers' call on who fixes it. -->
+>
 > ### Where it looks like it comes from
 >
 > `constrainScrollState` itself appears correct — it is pure and well covered by unit tests in
